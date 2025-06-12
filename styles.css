@@ -7,16 +7,16 @@
     left: 1080px;
     top: 60px;
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     color: white;
     transition: transform 1.5s ease;
-    transform: translateX(400px); /* Start off-screen (hidden) */
+    transform: translateX(400px);
     font-size: smaller;
 }
 
 .planetInfo.active {
-    transform: translateX(0); /* Slide into view */
+    transform: translateX(0);
 }
 
 .planetImage{
